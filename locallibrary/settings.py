@@ -28,7 +28,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'y5hb7h4_+3-_0c6f&=z)5luc)kmsh9
 #DEBUG = True
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 ALLOWED_HOSTS = [
- #   'http://127.0.0.1:8000/',
+    'davisphem.heroku.com'
 ]
 
 
