@@ -22,7 +22,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 #SECRET_KEY = 'y5hb7h4_+3-_0c6f&=z)5luc)kmsh9@8^wf%u%&f(5z8n)19en'
-heroku config:set DJANGO_SECRET_KEY='y5hb7h4_+3-_0c6f&=z)5luc)kmsh9@8^wf%u%&f(5z8n)19en'
+#heroku config:set DJANGO_SECRET_KEY='y5hb7h4_+3-_0c6f&=z)5luc)kmsh9@8^wf%u%&f(5z8n)19en'
 import os
 SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'y5hb7h4_+3-_0c6f&=z)5luc)kmsh9@8^wf%u%&f(5z8n)19en')
 # SECURITY WARNING: don't run with debug turned on in production!
